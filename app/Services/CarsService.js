@@ -1,3 +1,8 @@
+// @ts-ignore
+export const api = axios.create({
+  baseURL: 'https://bcw-sandbox.herokuapp.com/api/cars'
+})
+
 import { ProxyState } from "../AppState.js"
 import { Car } from "../Models/Car.js"
 
